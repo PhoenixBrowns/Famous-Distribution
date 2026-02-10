@@ -2,24 +2,167 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 16px;
+}
+
+@font-face{
+    font-family: grift;
+    src: url(assets/grift-regular.ttf);
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: grift;
+    src: url(assets/grift-bold.ttf);
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: grift;
+    src: url(assets/grift-italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
 body{
     margin: 0;
     padding: 0;
+    background-color: #F2F3D9;
+    font-family: grift, sans-serif;
+    font-weight: 400;
+    color: #F2F3D9;
+    background-color: #0D1321;
+}
+
+/**Header Section**/
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.container-flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
 }
 
 header{
     width: 100%;
-    padding: 20px;
-    background-color: aquamarine;
+    min-height: 50px;
+    max-height: 80px;
+    background-color: #0D1321;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     display: flex;
-    justify-content:space-between;
-    flex-wrap: nowrap;
+    align-items: center;
 }
 
-.logo,.log-nav,.nav{
+h1{
+    margin-top: 25px;
+}
+
+h1 a{
+    color: #F2F3D9;
+    font-family: grift;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: -5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+h1 a:hover{
+    color: #B7C3F3;
+    font-family: grift;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: -5px;
+    text-decoration: none;
+}
+
+.logo-nav, .nav-bar{
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
     gap: 10px;
+}
+
+.nav-bar{
+    width: 25rem;
+}
+
+#logo{
+    width: 35px;
+    height: 35px;
+    margin-left: -5px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: #F2F3D9;
+    font-family: grift;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.nav-bar a:hover{
+    text-decoration: none;
+    color: #B7C3F3;
+    font-family: grift;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.log-nav{
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.log-nav button{
+    width: 5rem;
+    padding: 4px 10px;
+    border-radius: 50px;
+    appearance: none;
+    outline: none;
+    border: none;
+    
+    font-family: grift;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #F2F3D9;
+}
+
+#button-1{
+    border: 2px solid #b7c3f3a1;
+    background-color: rgba(0,0,0,0.05);
+}
+
+#button-1:hover{
+    border: 2px solid #b7c3f3;
+    background-color: rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+#button-2{
+    background-color: #8c271eb0;
+    transition: all 0.3s ease;
+}
+
+#button-2:hover{
+    background-color: #8c271e;
+}
+
+.pointer:hover{
+    cursor: pointer;
 }
 
 .why{
