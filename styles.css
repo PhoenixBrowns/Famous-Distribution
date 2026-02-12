@@ -25,6 +25,12 @@ html{
     font-style: italic;
 }
 
+@font-face{
+    font-family: grift;
+    src: url(assets/grift-medium.ttf);
+    font-weight: 500;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -124,12 +130,12 @@ h1 a:hover{
     width: 300px;
     display: flex;
     justify-content: flex-end;
-    gap: 30px;
+    gap: 20px;
 }
 
 .log-nav button{
-    width: 5rem;
-    padding: 4px 10px;
+    width: 5.5rem;
+    padding: 5px 10px;
     border-radius: 50px;
     appearance: none;
     outline: none;
@@ -141,28 +147,119 @@ h1 a:hover{
     color: #F2F3D9;
 }
 
-#button-1{
+#log-btn{
     border: 2px solid #b7c3f3a1;
     background-color: rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
 }
 
-#button-1:hover{
+#log-btn:hover{
     border: 2px solid #b7c3f3;
     background-color: rgba(0,0,0,0.05);
     transition: all 0.3s ease;
 }
 
-#button-2{
+#sign-btn{
     background-color: #8c271eb0;
+    transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
-#button-2:hover{
+#sign-btn:hover{
     background-color: #8c271e;
 }
 
 .pointer:hover{
     cursor: pointer;
+}
+
+/**Hero Section**/
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
+
+#intro-div{
+    max-width: 650px;
+    min-height: 550px;
+    max-height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#intro-div, .intro-img{
+    border: 1px solid white;
+}
+
+#intro-div h2{
+    font-family: grift;
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+
+#intro-div p{
+    font-family: grift;
+    font-weight: 400;
+    font-size: 1.25rem;
+
+    margin-top: -30px;
+}
+
+.intro-btn{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+
+    margin-top: 10px;
+}
+
+.intro-btn button{
+    width: 14rem;
+    padding: 14px 15px;
+    border-radius: 50px;
+    appearance: none;
+    outline: none;
+    border: none;
+    
+    font-family: grift;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #F2F3D9;
+}
+
+#explore-btn{
+    border: 2px solid #b7c3f3a1;
+    background-color: rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+#explore-btn:hover{
+    border: 2px solid #b7c3f3;
+    background-color: rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+#contact-btn{
+    background-color: #8c271eb0;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#contact-btn:hover{
+    background-color: #8c271e;
+}
+
+.intro-img{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.intro-img img{
+    width: 500px;
 }
 
 .why{
