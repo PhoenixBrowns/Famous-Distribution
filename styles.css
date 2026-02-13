@@ -182,15 +182,10 @@ h1 a:hover{
 
 #intro-div{
     max-width: 650px;
-    min-height: 550px;
-    max-height: 550px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-#intro-div, .intro-img{
-    border: 1px solid white;
 }
 
 #intro-div h2{
@@ -256,12 +251,70 @@ h1 a:hover{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .intro-img img{
-    width: 500px;
+    max-width: 500px;
+    max-height: 520px;
 }
 
+/**Company**/
+
+.companies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.companies-background{
+    background-color: #FFEDDF;
+    color: #0a0a0f;
+    padding: 20px 0;
+}
+
+.companies-p{
+    font-family: grift;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.companies-list{
+    font-family: grift;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-top: -15px;
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.companies-logo{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.companies-logo img{
+    min-width: 80px;
+    max-width: 150px;
+    min-height: 15px;
+    max-height: 90px;
+}
+
+.read-more{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+    font-family: grift;
+    font-weight: 500;
+    font-size: 1rem;
+}
 .why{
     display: inline-block;
     width: 22%;
