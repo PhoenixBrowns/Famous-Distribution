@@ -309,16 +309,58 @@ h1 a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 40px;
 
     font-family: grift;
     font-weight: 500;
     font-size: 1rem;
 }
+
+.reason-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reason h2{
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.why h3{
+    font-size: 1.4rem;
+    font-family: grift;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+
+.why p{
+    font-size: 1rem;
+    font-family: grift;
+    font-weight: 400;
+}
+
+.pad{
+    padding: 40px;
+}
+
 .why{
-    display: inline-block;
-    width: 22%;
-    margin: 0 auto;
-    border-radius: 3px;
-    background-color: burlywood;
+    max-width: 250px;
+}
+
+.img-div img{
+    max-width: 50px;
+}
+
+.img-div{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: #b7c3f3;
+    border-radius: 50%;
+}
+
+.review-div{
+    background-color: #b7c3f3;
 }
