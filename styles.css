@@ -10,6 +10,7 @@ html{
     font-family: grift;
     src: url(assets/grift-regular.ttf);
     font-weight: 400;
+    font-style: normal;
 }
 
 @font-face{
@@ -22,6 +23,13 @@ html{
     font-family: grift;
     src: url(assets/grift-italic.ttf);
     font-weight: 400;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: grift;
+    src: url(assets/grift-bolditalic.ttf);
+    font-weight: 700;
     font-style: italic;
 }
 
@@ -239,7 +247,6 @@ h1 a:hover{
 #contact-btn{
     background-color: #8c271eb0;
     transition: all 0.3s ease;
-    transition: all 0.3s ease;
 }
 
 #contact-btn:hover{
@@ -316,15 +323,18 @@ h1 a:hover{
     font-size: 1rem;
 }
 
+/**Reasons section**/
+
 .reason-div{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .reason h2{
     font-family: grift;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-bottom: 4rem;
 }
 
@@ -367,8 +377,10 @@ h1 a:hover{
     border-radius: 50%;
 }
 
+/**Review Section**/
+
 .review{
-    background-color: #e5e9f3;
+    background-color: #ebeff7;
     color: #0a0a0f;
     font-family: grift;
     font-weight: 400;
@@ -380,35 +392,104 @@ h1 a:hover{
     gap: 5rem;
 }
 
-.shop{
-    min-height: 20rem;
+.shop img{
+    max-width: 500px;
+    min-width: 400px;
 }
 
-.shop img{
-    max-width: 300px;
-    border: 1px solid black;
+.left-round{
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.right-round{
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
 }
 
 .review h2{
     font-family: grift;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
 }
 
 .text-div{
+    padding: 0 50px;
     display: flex;
+    gap: 1.5rem;;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    border: 1px solid black;
+    flex-grow: 1;
     width: 40rem;
 }
 
 .shop{
+    min-height: 320px;
+    max-height: 400px;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    border: 1px black solid;
     border-radius: 40px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 10px 2px rgba(0, 0, 0, 0.356);
+    background-color: #F2F3D9;
 }
+
+blockquote{
+    margin: 0;
+    font-family: grift;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+cite{
+    font-family: grift;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.italic{
+    font-family: grift;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.bold{
+    font-family: grift;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.join-btn-div button{
+    min-width: 18rem;
+    padding: 20px 18px;
+    border-radius: 50px;
+    appearance: none;
+    outline: none;
+    border: none;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.356);
+    
+    font-family: grift;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #F2F3D9;
+}
+
+#join-btn{
+    background-color: #8c271e;
+    transition: all 0.3s ease;
+}
+
+#join-btn:hover{
+    background-color: #8c271ee5;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.13);
+}
+
+.join-btn-div{
+    display: flex;
+    justify-content: center;
+}
+
