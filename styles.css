@@ -165,12 +165,10 @@ h1 a:hover{
 #log-btn:hover{
     border: 2px solid #b7c3f3;
     background-color: rgba(0,0,0,0.05);
-    transition: all 0.3s ease;
 }
 
 #sign-btn{
     background-color: #8c271eb0;
-    transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
@@ -480,13 +478,13 @@ cite{
 }
 
 #join-btn{
-    background-color: #8c271e;
+    background-color: #8c271eee;
     transition: all 0.3s ease;
 }
 
 #join-btn:hover{
-    background-color: #8c271ee5;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.13);
+    background-color: #8c271e;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.486);
 }
 
 .join-btn-div{
@@ -494,3 +492,115 @@ cite{
     justify-content: center;
 }
 
+/**Staff Section**/
+
+.staff-section h2{
+    font-family: grift;
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+}
+
+.staff-main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+}
+
+.staff-div-1, .staff-div-2{
+    width: 100%;
+}
+
+.staff-div-1{
+    display: flex;
+    justify-content: center;
+}
+
+.staff-div-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.staff{
+    max-width: 350px;
+    background-color: #F2F3D9;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.473);
+
+    color: #0a0a0f;
+}
+
+.staff img{
+    max-width: 350px;
+    border-bottom: 5px solid #0a0a0f;
+}
+
+.top-round{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.staff-info{
+    padding: 0 2rem 2rem 2rem;
+}
+
+.staff-info h3{
+    font-family: grift;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.staff-info p{
+    font-family: grift;
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-align: center;
+    
+    margin-top: -30px;
+}
+
+.staff-info h4{
+    font-family: grift;
+    font-weight: 700;
+    font-size: 1.3rem;
+
+    margin-bottom: -10px;
+}
+
+/**"Apply Now" Section**/
+
+.apply-now{
+    background-color: #F2F3D9;
+    color: #0a0a0f;
+}
+
+.apply-text h2{
+    font-family: grift;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.apply-btn{
+    min-width: 14rem;
+    padding: 15px 18px;
+    border-radius: 50px;
+    appearance: none;
+    outline: none;
+    border: none;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.356);
+    
+    font-family: grift;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #F2F3D9;
+    background-color: #8c271ee7;
+    transition: all 0.3s ease;
+}
+
+.apply-btn:hover{
+    background-color: #8c271e;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.521);;
+}
