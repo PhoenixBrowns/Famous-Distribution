@@ -462,9 +462,9 @@ cite{
     font-style: normal;
 }
 
-.join-btn-div button{
-    min-width: 18rem;
-    padding: 20px 18px;
+.see-more-btn-div button{
+    min-width: 13rem;
+    padding: 13px 20px;
     border-radius: 50px;
     appearance: none;
     outline: none;
@@ -473,24 +473,26 @@ cite{
     
     font-family: grift;
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #F2F3D9;
 }
 
-#join-btn{
+#see-more-btn{
     background-color: #8c271eee;
     transition: all 0.3s ease;
 }
 
-#join-btn:hover{
+#see-more-btn:hover{
     background-color: #8c271e;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.486);
 }
 
-.join-btn-div{
+.see-more-btn-div{
     display: flex;
     justify-content: center;
 }
+
+
 
 /**Staff Section**/
 
@@ -570,6 +572,41 @@ cite{
     margin-bottom: -10px;
 }
 
+.join-btn-div button{
+    min-width: 15rem;
+    padding: 15px 25px;
+    border-radius: 50px;
+    appearance: none;
+    outline: none;
+    border: none;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.356);
+    
+    font-family: grift;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #F2F3D9;
+}
+
+#join-btn{
+    border: 2px solid #b7c3f3a1;
+    background-color: rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+#join-btn:hover{
+    border: 2px solid #b7c3f3;
+    background-color: rgba(0,0,0,0.05);
+}
+
+.join-btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+.serious-bottom-pad{
+    padding-bottom: 60px;
+}
+
 /**"Apply Now" Section**/
 
 .apply-now{
@@ -577,10 +614,42 @@ cite{
     color: #0a0a0f;
 }
 
+.apply-now-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apply-text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-height: 350px;
+}
+
+.apply-img{
+    min-width: 450px;
+    min-height: 400px;
+
+    margin-bottom: -0.43px;
+}
+
+.apply-text{
+    margin-bottom: 2rem;
+}
+
 .apply-text h2{
     font-family: grift;
     font-weight: 700;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+
+    margin-bottom: -3px;
+}
+
+.apply-text p{
+    font-family: grift;
+    font-weight: 400;
+    font-size: 1.2rem;
 }
 
 .apply-btn{
@@ -594,7 +663,7 @@ cite{
     
     font-family: grift;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #F2F3D9;
     background-color: #8c271ee7;
     transition: all 0.3s ease;
@@ -603,4 +672,15 @@ cite{
 .apply-btn:hover{
     background-color: #8c271e;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.521);;
+}
+
+.serious-top-pad{
+    padding-top: 60px;
+}
+
+/**Footer Section**/
+
+footer{
+    background-color: #0D1321;
+    width: 100%;
 }
