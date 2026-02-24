@@ -40,6 +40,7 @@ html{
 }
 
 body{
+    width: 100%;
     margin: 0;
     padding: 0;
     background-color: #F2F3D9;
@@ -47,6 +48,8 @@ body{
     font-weight: 400;
     color: #F2F3D9;
     background-color: #0D1321;
+
+    overflow-x: auto;
 }
 
 /**Header Section**/
@@ -113,8 +116,8 @@ h1 a:hover{
 }
 
 #logo{
-    width: 35px;
-    height: 35px;
+    max-width: 35px;
+    max-height: 35px;
     margin-left: -5px;
 }
 
@@ -218,8 +221,8 @@ h1 a:hover{
 }
 
 .intro-btn button{
-    width: 14rem;
-    padding: 14px 15px;
+    min-width: 14rem;
+    padding: 14px 30px;
     border-radius: 50px;
     appearance: none;
     outline: none;
@@ -355,7 +358,7 @@ h1 a:hover{
 }
 
 .serious-pad{
-    padding: 60px;
+    padding: 60px 0;
 }
 
 .why{
@@ -631,7 +634,7 @@ cite{
     min-width: 450px;
     min-height: 400px;
 
-    margin-bottom: -0.43px;
+    margin-bottom: -0.48px;
 }
 
 .apply-text{
@@ -683,4 +686,117 @@ cite{
 footer{
     background-color: #0D1321;
     width: 100%;
+}
+
+.footer-logo-div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-logo{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.footer-logo-text{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.footer-logo-text a{
+    font-family: grift;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #F2F3D9;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-logo-text a:hover{
+    color: #B7C3F3;
+}
+
+.footer-upper-text{
+    margin-top: 20px;
+    
+    line-height: 5px;
+    color: #f2f3d9cc;
+}
+
+.footer-upper-text h3{
+    font-family: grift;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1rem;
+    color: #f2f3d9;
+
+    margin-bottom: 2rem;
+}
+
+address{
+    font-family: grift;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+address a{
+    text-decoration: none;
+    color: #f2f3d9cc;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.footnote{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.footnote-text{
+    font-size: 1rem;
+    color: #f2f3d9cc;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.footnote-text a:hover{
+    color: #B7C3F3;
+}
+
+
+.footnote-social-icons{
+    min-height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.footer-icon{
+    width: 2rem;
+    height: 2rem;
+    padding: 8px;
+    background-color: #f2f3d9cc;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.footer-icon:hover{
+    background-color: #f2f3d9;
 }
