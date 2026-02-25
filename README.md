@@ -18,6 +18,8 @@ This project is currently in Phase 1 (Product Landing Page). More developments w
 
 **Semantic Data**: Implementation of the semantically accessible tags such as `<section>` for dividers, `<hr>` for line breaks, `<address>` for contact information and `<blockquote>` tags for retailer reviews.
 
+**"Under-Development" Page**: A page coded to show that the requrested URL is under construction.
+
 ## Website Architecture
 
 1. Hero Section
@@ -42,6 +44,8 @@ This project is currently in Phase 1 (Product Landing Page). More developments w
 
 **styles.css**: Global stylesheet containing brand colors and layout definitions.
 
+**under-development 3.html**, **under-development 4.html**, **under-development 5.html**, **under-development 6.html**: The web pages to indicate ongoing development.
+
 **/assets**: Centralized folder for images and logos.
 
 ## Roadmap (Upcoming Phases)
@@ -56,4 +60,4 @@ This project is currently in Phase 1 (Product Landing Page). More developments w
 **Phase 6**: *Upcoming*
 
 ## Author
-Wai Yan Htet Oo
+Wai Yan Htet Oo (Phoneix Browns)
