@@ -172,11 +172,13 @@ h1 a:hover{
 
 #sign-btn{
     background-color: #8c271eb0;
+    border: 2px solid #8c271e05;
     transition: all 0.3s ease;
 }
 
 #sign-btn:hover{
     background-color: #8c271e;
+    border: 2px solid #8c271e;
 }
 
 .pointer:hover{
@@ -248,11 +250,13 @@ h1 a:hover{
 
 #contact-btn{
     background-color: #8c271eb0;
+    border: 2px solid #8c271e00;
     transition: all 0.3s ease;
 }
 
 #contact-btn:hover{
     background-color: #8c271e;
+    border: 2px solid #8c271e;
 }
 
 .intro-img{
@@ -527,6 +531,14 @@ cite{
     justify-content: space-evenly;
 }
 
+.staff-div-2 a, .staff-div-1 a{
+    text-decoration: none;
+    color: #0a0a0f;
+    font-family: grift;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
 .staff{
     max-width: 350px;
     background-color: #F2F3D9;
@@ -750,7 +762,7 @@ address a{
 hr{
     border: none;
     height: 1px;
-    background-color: white;
+    background-color: #f2f3d9cc;
     margin-top: 40px;
     margin-bottom: 20px;
 }
@@ -766,17 +778,21 @@ hr{
 .footnote-text{
     font-size: 1rem;
     color: #f2f3d9cc;
-
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     gap: 30px;
 }
 
-.footnote-text a:hover{
-    color: #B7C3F3;
+.footer-link{
+    font-size: 1rem;
+    color: #f2f3d9cc;
+    text-decoration: none;
 }
 
+.footer-link:hover{
+    color: #B7C3F3;
+}
 
 .footnote-social-icons{
     min-height: 50px;
@@ -800,3 +816,112 @@ hr{
 .footer-icon:hover{
     background-color: #f2f3d9;
 }
+
+/**Under-development page**/
+
+.under-development-main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #f2f3d9b0;
+}
+
+.phase{
+    color: #f2f3d9;
+}
+
+.under-development-text-div{
+    min-width: 600px;
+}
+
+.under-development-logo-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 10px;
+
+    margin-bottom: -30px;
+}
+
+.under-development-logo{
+    max-width: 50px;
+}
+
+.under-development-logo-text{
+    color: #f2f3d9;
+    font-family: grift;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: -5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.under-development-logo-text:hover{
+    color: #B7C3F3;
+    font-size: 2rem;
+}
+
+.under-development-main h2{
+    font-family: grift;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.under-development-main p{
+    font-family: grift;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.under-development-img-div img{
+    max-width: 400px;
+}
+
+.under-development-btn{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+
+    margin-top: 20px;
+}
+
+.under-development-btn button{
+    min-width: 14rem;
+    padding: 14px 30px;
+    border-radius: 50px;
+    appearance: none;
+    outline: none;
+    border: none;
+    
+    font-family: grift;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #F2F3D9;
+}
+
+#home-btn{
+    border: 2px solid #b7c3f3a1;
+    background-color: rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+#home-btn:hover{
+    border: 2px solid #b7c3f3;
+    background-color: rgba(0,0,0,0.05);
+}
+
+#more-btn{
+    background-color: #8c271eb0;
+    border: 2px solid #8c271e05;
+    transition: all 0.3s ease;
+}
+
+#more-btn:hover{
+    background-color: #8c271e;
+    border: 2px solid #8c271e;
+}
+
